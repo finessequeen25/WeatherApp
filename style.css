@@ -2,7 +2,6 @@ body {
     background-color: #f563dd; /* Updated pink background */
     font-family: Arial, sans-serif;
 }
-
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -17,6 +16,15 @@ h1 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
 }
 
 input {
@@ -39,6 +47,10 @@ button {
 
 button:hover {
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:hover {
+    background-color: #0056b3;
 }
 
 .weather-info {
